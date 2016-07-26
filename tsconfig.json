@@ -1,5 +1,5 @@
 {
-    "version": "1.8.0",
+    "version": "2.0.0",
     "compilerOptions": {
         "outDir": "build/es5",
         "target": "es5",
@@ -9,12 +9,23 @@
         "experimentalDecorators": true,
         "sourceMap": true,
         "noImplicitAny": true,
-        "declaration": true
+        "declaration": true,
+        "types": [
+            "assertion-error",
+            "chai",
+            "chai-as-promised",
+            "es6-shim",
+            "gulp",
+            "mocha",
+            "node",
+            "orchestrator",
+            "promises-a-plus",
+            "q",
+            "sinon"
+        ]
     },
     "exclude": [
         "build",
-        "node_modules",
-        "typings/browser.d.ts",
-        "typings/browser"
+        "node_modules"
     ]
 }
